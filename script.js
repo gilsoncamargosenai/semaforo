@@ -2,9 +2,7 @@ let clientWeb= null
 
 const clientId = "Esp32" + Math.floor((Math.random() * 1000) + 100)
 //alert(clientId )
-clientweb= new Paho.MQTT.Client("broker.hivemq.com", 8884, clientId)
-
-
+clientweb= new Paho.MQTT.Client("broker.hivemq.com", 8884, clientId) //mosca
 
 
 clientWeb.connect({
