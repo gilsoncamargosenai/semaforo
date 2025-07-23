@@ -5,6 +5,8 @@ const clientId = "Esp32" + Math.floor((Math.random() * 1000) + 100)
 clientweb= new Paho.MQTT.Client("broker.hivemq.com", 8884, clientId)
 
 
+
+
 clientWeb.connect({
     
     useSSL:true,
