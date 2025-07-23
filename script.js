@@ -19,6 +19,9 @@ clientWeb.connect({
     }
 })
 
+
+
+
 function vermelho() {
     //alert("ligando led vermelho");
     document.getElementById("vermelho").classList.add("vermelho");
